@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema
 const voituresSchema = new mongoose.Schema({
-    modele:{
+    model:{
         type: String,
         required : true
     },
-    marque:{
+    annee:{
         type:String,
         required:true
     },
-    annee:{
+    marque:{
         type:String,
         required:true
     },

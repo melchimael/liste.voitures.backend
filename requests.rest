@@ -1,4 +1,4 @@
-POST http://192.168.88.33:3001/login
+POST http://localhost:3001/getInfoUser
 Content-Type: application/json
 
 {

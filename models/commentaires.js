@@ -10,7 +10,7 @@ const commentairesSchema = new mongoose.Schema({
         required:true
     },
     voitureId:{
-        type:String,
+        type:Schema.Types.ObjectId,
         required:true
     },
     nomUser:{
@@ -23,5 +23,5 @@ const commentairesSchema = new mongoose.Schema({
     }
 })
 
-const voitures = mongoose.model('voitures', voituresSchema); 
-module.exports = voitures 
+const commentaires = mongoose.model('commentaires', commentairesSchema); 
+module.exports = commentaires 
